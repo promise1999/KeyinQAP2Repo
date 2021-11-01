@@ -3,11 +3,11 @@ public class Author{
     private String email;
     private char gender;
 
-    public Author(String name, String email, char gender)
+    public Author(String n, String e, char g)
     {
-        this.name = name;
-        this.email = email;
-        this.gender = gender;
+        this.name = n;
+        this.email = e;
+        this.gender = g;
         }
         public String getEmail() {
             return email;
